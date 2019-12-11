@@ -16,6 +16,10 @@
 		D6CA6987229D60BD007815A5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D6CA6986229D60BD007815A5 /* README.md */; };
 		D6CA698A229D60FA007815A5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D6CA6989229D60FA007815A5 /* LICENSE */; };
 		D6CA698C229D610C007815A5 /* XYZRealm.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D6CA698B229D610B007815A5 /* XYZRealm.podspec */; };
+		D6CA698E229D629A007815A5 /* XYZRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CA698D229D629A007815A5 /* XYZRealm.swift */; };
+		D6CA6990229D64BA007815A5 /* XYZRealmPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CA698F229D64BA007815A5 /* XYZRealmPath.swift */; };
+		D6CA6992229D6506007815A5 /* XYZRealmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CA6991229D6506007815A5 /* XYZRealmProvider.swift */; };
+		D6CA6994229D6D42007815A5 /* RealmCRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CA6993229D6D42007815A5 /* RealmCRUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		D6CA6986229D60BD007815A5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6CA6989229D60FA007815A5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D6CA698B229D610B007815A5 /* XYZRealm.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XYZRealm.podspec; sourceTree = "<group>"; };
+		D6CA698D229D629A007815A5 /* XYZRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZRealm.swift; sourceTree = "<group>"; };
+		D6CA698F229D64BA007815A5 /* XYZRealmPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZRealmPath.swift; sourceTree = "<group>"; };
+		D6CA6991229D6506007815A5 /* XYZRealmProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZRealmProvider.swift; sourceTree = "<group>"; };
+		D6CA6993229D6D42007815A5 /* RealmCRUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCRUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +100,10 @@
 		D6CA6988229D60EA007815A5 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				D6CA6991229D6506007815A5 /* XYZRealmProvider.swift */,
+				D6CA698D229D629A007815A5 /* XYZRealm.swift */,
+				D6CA698F229D64BA007815A5 /* XYZRealmPath.swift */,
+				D6CA6993229D6D42007815A5 /* RealmCRUD.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -223,8 +235,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6CA698E229D629A007815A5 /* XYZRealm.swift in Sources */,
 				D6CA6977229D602D007815A5 /* ViewController.swift in Sources */,
+				D6CA6990229D64BA007815A5 /* XYZRealmPath.swift in Sources */,
 				D6CA6975229D602D007815A5 /* AppDelegate.swift in Sources */,
+				D6CA6992229D6506007815A5 /* XYZRealmProvider.swift in Sources */,
+				D6CA6994229D6D42007815A5 /* RealmCRUD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
