@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "XYZRealm"
-  s.version      = "4.0.5"
+  s.version      = "4.0.6"
   s.summary      = "持续升级"
 
   s.description  = <<-DESC
@@ -28,4 +28,9 @@ Pod::Spec.new do |s|
   s.dependency 'RxSwift'     # RxSwift dependency
   s.dependency 'RxCocoa'     # RxCocoa dependency
 
+ # New dependencies
+  s.dependency 'XYZPathKit'    # Assuming XYZPathKit is available via CocoaPods
+  s.dependency 'XYZVCX'        # Assuming XYZVCX is available via CocoaPods
+  s.dependency 'Disk'          # Disk package for handling file system interactions
+  
 end

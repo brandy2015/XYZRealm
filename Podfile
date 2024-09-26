@@ -8,7 +8,12 @@ target 'XYZRealm' do
   # Pods for XYZRealm
 	pod "RealmSwift"
   pod "RxSwift"
-  pod "RxCocoa" 
+  pod "RxCocoa"
+  
+  pod "XYZPathKit"
+  pod "XYZVCX"
+  pod "Disk"
+  
 end
 
 
