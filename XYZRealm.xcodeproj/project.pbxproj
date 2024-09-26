@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		422F7DBA6548CC6B11AF1742 /* Pods_XYZRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF283F11298D745FC30997B /* Pods_XYZRealm.framework */; };
+		D6B306762CA4F38F008FD928 /* XYZRxRealm_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B306752CA4F38F008FD928 /* XYZRxRealm_Extension.swift */; };
 		D6CA6975229D602D007815A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CA6974229D602D007815A5 /* AppDelegate.swift */; };
 		D6CA6977229D602D007815A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CA6976229D602D007815A5 /* ViewController.swift */; };
 		D6CA697A229D602D007815A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CA6978229D602D007815A5 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		2548A9BDB0AE97C9BCA6C1F6 /* Pods-XYZRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZRealm.release.xcconfig"; path = "Target Support Files/Pods-XYZRealm/Pods-XYZRealm.release.xcconfig"; sourceTree = "<group>"; };
 		7BF283F11298D745FC30997B /* Pods_XYZRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEE31784277F7B9E70E62B5 /* Pods-XYZRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZRealm.debug.xcconfig"; path = "Target Support Files/Pods-XYZRealm/Pods-XYZRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		D6B306752CA4F38F008FD928 /* XYZRxRealm_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZRxRealm_Extension.swift; sourceTree = "<group>"; };
 		D6CA6971229D602D007815A5 /* XYZRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CA6974229D602D007815A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6CA6976229D602D007815A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				D6CA6991229D6506007815A5 /* XYZRealmProvider.swift */,
 				D6CA698D229D629A007815A5 /* XYZRealm.swift */,
 				D6CA698F229D64BA007815A5 /* XYZRealmPath.swift */,
+				D6B306752CA4F38F008FD928 /* XYZRxRealm_Extension.swift */,
 				D6CA6993229D6D42007815A5 /* RealmCRUD.swift */,
 			);
 			path = Source;
@@ -237,6 +240,7 @@
 			files = (
 				D6CA698E229D629A007815A5 /* XYZRealm.swift in Sources */,
 				D6CA6977229D602D007815A5 /* ViewController.swift in Sources */,
+				D6B306762CA4F38F008FD928 /* XYZRxRealm_Extension.swift in Sources */,
 				D6CA6990229D64BA007815A5 /* XYZRealmPath.swift in Sources */,
 				D6CA6975229D602D007815A5 /* AppDelegate.swift in Sources */,
 				D6CA6992229D6506007815A5 /* XYZRealmProvider.swift in Sources */,

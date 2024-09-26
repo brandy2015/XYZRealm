@@ -60,9 +60,11 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/brandy2015/XYZRealm.git", :tag => "3.0.1"}
   s.source_files = "XYZRealm/Source/*"
 
-
     s.dependency 'RealmSwift'         #Realm
-
+    s.dependency 'RxSwift'
+    s.dependency 'RxCocoa'
+    s.dependency 'RxRealm'
+  
   # s.social_media_url   = "http://twitter.com/Brandy"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
