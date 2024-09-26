@@ -8,8 +8,7 @@ target 'XYZRealm' do
   # Pods for XYZRealm
 	pod "RealmSwift"
   pod "RxSwift"
-  pod "RxCocoa"
-  pod 'RxRealm'
+  pod "RxCocoa" 
 end
 
 

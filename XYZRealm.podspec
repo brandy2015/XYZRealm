@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "XYZRealm"
-  s.version      = "4.0.2"
+  s.version      = "4.0.4"
   s.summary      = "持续升级"
 
   s.description  = <<-DESC
@@ -27,6 +27,5 @@ Pod::Spec.new do |s|
   s.dependency 'RealmSwift'  # RealmSwift framework dependency
   s.dependency 'RxSwift'     # RxSwift dependency
   s.dependency 'RxCocoa'     # RxCocoa dependency
-  s.dependency 'RxRealm'     # RxRealm dependency
 
 end
