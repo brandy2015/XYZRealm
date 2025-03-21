@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "XYZRealm"
-  s.version      = "4.0.7"
+  s.version      = "4.0.9"
   s.summary      = "持续升级"
 
   s.description  = <<-DESC
